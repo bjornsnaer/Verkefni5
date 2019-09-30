@@ -40,7 +40,9 @@ h2 {
 }
 
 .cards_card {
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
   border: 2px solid #aaa;
   border-radius: 5px;
 
@@ -63,9 +65,11 @@ h2 {
   font-size: 16px;
   line-height: 20px;
   word-wrap: break-word;
+  overflow: hidden;
 }
 
 .card_list {
+  margin-top: auto;
   list-style: none;
 }
 
@@ -75,7 +79,7 @@ h2 {
 }
 
 .card_images {
-  
+  width: 100%;
 }
 
 .images_img {
