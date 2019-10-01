@@ -22,12 +22,7 @@ main {
   padding: 20px;
 }
 
-h2 {
-  font-size: 24px;
-  line-height: 24px;
-}
-
-/* content */
+/* cards */
 
 .cards {
   display: flex;
@@ -35,21 +30,16 @@ h2 {
   justify-content: space-around;
 }
 
-.card_main {
-  display: flex;
-}
-
 .cards_card {
   display: flex;
   flex-direction: column;
+
   background-color: #fff;
   border: 2px solid #aaa;
   border-radius: 5px;
-
   max-width: 470px;
   max-height: 320px;
   margin-bottom: 10px;
-  width: 100%;
 
   overflow: auto;
   word-wrap: break-word;
@@ -59,6 +49,19 @@ h2 {
 
 .cards_card:last-child {
   order: 1;
+}
+
+.card_main {
+  display: flex;
+  
+  margin: 0.6rem;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 24px;
+
+  margin: 0.6rem;
 }
 
 .card_text {
@@ -71,6 +74,8 @@ h2 {
 .card_list {
   margin-top: auto;
   list-style: none;
+
+  margin-left: 0.6rem;
 }
 
 .card_list li {
@@ -78,11 +83,13 @@ h2 {
   font-weight: bold;
 }
 
+/* myndir innan cards */
+
 .card_images {
   width: 100%;
 }
 
 .images_img {
-  width: 130px;
+  width: 150px;
   padding-right: 20px;
 }
